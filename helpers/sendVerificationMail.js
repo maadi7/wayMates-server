@@ -18,7 +18,7 @@ async function sendVerificationEmail(to, username, otp) {
       secure: false, // Change to true if your SMTP server requires SSL/TLS
       auth: {
         user: 'mishraadi733@gmail.com', // Replace with your SMTP server username
-        pass: 'twbz twws ukct mzld', // Replace with your SMTP server password
+        pass: '', // Replace with your SMTP server password
       },
     });
 
